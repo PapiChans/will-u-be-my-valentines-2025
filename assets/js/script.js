@@ -43,13 +43,13 @@ function changeImage() {
         question.textContent = "Don't break my heart...";
     }
     else if (imagePhase == 3) {
-        question.textContent = "You’re my only hope...";
+        question.textContent = "Sige lulutuin ko si Maku...";
     }
     else if (imagePhase == 4) {
-        question.textContent = "Please, I’m begging you...";
+        question.textContent = "Ayaw mo tlga ah, mwah mwah ka sa'kin...";
     }
     else if (imagePhase == 5) {
-        question.textContent = "You’re all I want...";
+        question.textContent = "Bilis na Baby...";
     }
     else if (imagePhase == 6) {
         question.textContent = "Please, don’t leave me hanging...";
@@ -65,7 +65,7 @@ function backtoImage() {
     setTimeout(() => {
         if (imagePhase == 1) {
             image.src = 'assets/images/content-pics/img-1.jpg';
-            question.textContent = "Will you be my valentine?";
+            question.textContent = "Will you be my valentine seyo?";
         }
         else if (imagePhase == 2) {
             image.src = 'assets/images/content-pics/img-3.jpg';
@@ -73,11 +73,11 @@ function backtoImage() {
         }
         else if (imagePhase == 3) {
             image.src = 'assets/images/content-pics/img-4.jpg';
-            question.textContent = "I can't imagine a day without you!";
+            question.textContent = "I can't imagine a day without you RAAAHHHHH!";
         }
         else if (imagePhase == 4) {
             image.src = 'assets/images/content-pics/img-5.jpg';
-            question.textContent = "Please, I just need this from you.";
+            question.textContent = "Magiging Core Memory natin 'to.";
         }
         else if (imagePhase == 5) {
             image.src = 'assets/images/content-pics/img-6.jpg';
@@ -85,7 +85,7 @@ function backtoImage() {
         }
         else if (imagePhase == 6) {
             image.src = 'assets/images/content-pics/img-7.jpg';
-            question.textContent = "I’ll do anything, just say yes!";
+            question.textContent = "I’ll do anything for u, just say yes!";
         }
         image.classList.remove('fade');
     }, 180); 
@@ -114,7 +114,7 @@ button_no.addEventListener('click', () => {
 button_yes.addEventListener('click', () =>{
     image.classList.add('fade');
     button_area.innerHTML = '';
-    button_area.textContent = "Let's meet at our favorite place at 1:00 PM, See you! <3";
+    button_area.textContent = "Thank you for being my valentine seyo, See you! <3";
     question.textContent = "YAY!"
     setTimeout(() => {
         image.src = 'assets/images/content-pics/img-8.jpg';
